@@ -1,0 +1,88 @@
+*{
+    padding: 4px;
+    margin: 0%;
+    font-family: "Poppins", sans-serif ;
+}
+
+input{
+    border-radius: 5px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.side2{
+    background: blue;
+    width: 70%;
+    height: 100%;
+
+}
+
+.box1 h3{
+    font-weight: 400;
+    color: #57543e;
+    font-size: 16px;
+}
+
+.box1 h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box7 .drag{
+    border: 2px dashed #D6D3D1;
+    height: 160px;
+    width: 528px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box11 .drag{
+    border: 2px dashed #D6D3D1;
+    height: 160px;
+    width: 528px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.box12 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adiciona um espaço entre as caixas */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.drag {
+    border: 1px solid#D6D3D1; 
+    height: 120px;
+    width: 256px; 
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    position: relative; 
+}
+
+.drag input[type="checkbox"] {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+
